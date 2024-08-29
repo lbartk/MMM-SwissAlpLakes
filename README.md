@@ -31,13 +31,14 @@ The module is based on idea form the [MMM-SwissLakeTemperature](https://github.c
 ```
 2. If you want to display information from a few lakes, you need to use array
 ```
-			module: "MMM-SwissAlpLakes",
-			position: "top_left", // Or any other position
-			config: {
-				lakes: [
-					{ lat: '47.309263', lng: '8.583303', lake: 'zurich', depth: '1' },
-					{ lat: '47.363915', lng: '8.672333', lake: 'greifensee', depth: '1' }
-				]
-			}
-		},
+{
+	module: "MMM-SwissAlpLakes",
+	position: "top_left", // Or any other position
+	config: {
+		lakes: [
+			{ lat: '47.309263', lng: '8.583303', lake: 'zurich', depth: '1' },
+			{ lat: '47.363915', lng: '8.672333', lake: 'greifensee', depth: '1' }
+		]
+	}
+}
 ```
