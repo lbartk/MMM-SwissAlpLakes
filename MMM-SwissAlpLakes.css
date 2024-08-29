@@ -1,0 +1,23 @@
+.MMM-SwissAlpLakes i {
+    margin-right: 5px;
+}
+
+.temp-hot {
+    color: red;
+}
+
+.temp-warm {
+    color: orange;
+}
+
+.temp-average {
+    color: yellow;
+}
+
+.temp-cold {
+    color: lightblue;
+}
+
+.temp-freezing {
+    color: blue;
+}
