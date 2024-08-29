@@ -1,7 +1,7 @@
 # MMM-SwissAlpLakes
-This module will fetch the temperature from the specified API every hour and display it on your MagicMirror. It also changes the displayed icon based on the temperature.
+This module fetches the temperature from the [AlpLakes API](https://www.alplakes.eawag.ch/api) every hour and displays it on your MagicMirror. It also changes the icon displayed based on the temperature.
 
-The module is based on idea form the [MMM-SwissLakeTemperature](https://github.com/roufri/MMM-SwissLakeTemperature)
+The module is based on an idea from the [MMM-SwissLakeTemperature](https://github.com/roufri/MMM-SwissLakeTemperature)
 
 ## Installation
 
@@ -16,7 +16,7 @@ The module is based on idea form the [MMM-SwissLakeTemperature](https://github.c
 3. Add the module to your `config.js` file.
 
 ## Configuration
-1. For one lake
+1. basic configuration
 ```javascript
 {
     module: "MMM-SwissAlpLakes",
@@ -29,7 +29,7 @@ The module is based on idea form the [MMM-SwissLakeTemperature](https://github.c
     }
 }
 ```
-2. If you want to display information from a few lakes, you need to use array
+2. If you want to display information from a few lakes, you need to use an array
 ```javascript
 {
 	module: "MMM-SwissAlpLakes",
