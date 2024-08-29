@@ -30,7 +30,7 @@ The module is based on idea form the [MMM-SwissLakeTemperature](https://github.c
 }
 ```
 2. If you want to display information from a few lakes, you need to use array
-```
+```javascript
 {
 	module: "MMM-SwissAlpLakes",
 	position: "top_left", // Or any other position
