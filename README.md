@@ -3,6 +3,9 @@ This module fetches the temperature from the [AlpLakes API](https://www.alplakes
 
 The module is based on an idea from the [MMM-SwissLakeTemperature](https://github.com/roufri/MMM-SwissLakeTemperature)
 
+## Demo
+![image](https://github.com/user-attachments/assets/f5e8c21a-7092-4702-8b7d-59e4ca7a6f99)
+
 ## Installation
 
 1. Navigate to your MagicMirror `modules` directory:
