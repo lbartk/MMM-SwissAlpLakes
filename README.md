@@ -24,6 +24,7 @@ The module is based on an idea from the [MMM-SwissLakeTemperature](https://githu
 {
     module: "MMM-SwissAlpLakes",
     position: "top_right", // Example position
+    showLastUpdated: false, // Set to false if you don't want to show the last updated time
     config: {
         lat: '47.309263',
         lng: '8.583303',
@@ -37,6 +38,7 @@ The module is based on an idea from the [MMM-SwissLakeTemperature](https://githu
 {
 	module: "MMM-SwissAlpLakes",
 	position: "top_left", // Or any other position
+	showLastUpdated: false, // Set to false if you don't want to show the last updated time
 	config: {
 		lakes: [
 			{ lat: '47.309263', lng: '8.583303', lake: 'zurich', depth: '1' },
