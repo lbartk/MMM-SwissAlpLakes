@@ -21,3 +21,18 @@
 .temp-freezing {
     color: blue;
 }
+.lake-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.temp-details {
+    margin-left: 5px;
+}
+
+.last-update {
+    font-size: smaller;
+    margin-top: 1px;
+    text-align: left;
+}
